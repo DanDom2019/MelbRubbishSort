@@ -1,0 +1,17 @@
+{
+  "data": [
+    { "name": "Adhesive strips (band aids)", "keywords": ["band aid","plaster","adhesive strip","bandage"], "bin_key": "RED", "instructions": "Place in general waste (red lid) bin.", "Council": "MELBOURNE", "category": "General Waste" },
+    { "name": "Aerosol cans", "keywords": ["aerosol","spray can","deodorant","air freshener","hairspray"], "bin_key": "YELLOW", "instructions": "Ensure completely empty; place in recycling (yellow lid) bin.", "Council": "MELBOURNE", "category": "Recycling" },
+    { "name": "Aluminium cans", "keywords": ["aluminium can","tin can","beverage can","drink can","soda can"], "bin_key": "YELLOW", "instructions": "Rinse/empty, place in recycling bin.", "Council": "MELBOURNE", "category": "Recycling" },
+    { "name": "Aluminium foil", "keywords": ["foil","aluminium foil","baking foil","greaseproof foil","food wrap"], "bin_key": "YELLOW", "instructions": "Scrape clean, scrunch into a ball, then recycle.", "Council": "MELBOURNE", "category": "Recycling" },
+    { "name": "Batteries (household)", "keywords": ["AA","AAA","9V","button cell","phone battery","laptop battery","rechargeable"], "bin_key": "SPECIAL", "instructions": "Tape terminals; drop off at City of Melbourne hubs.", "Council": "MELBOURNE", "category": "E-Waste" },
+    { "name": "Bottles (glass, plastic, metal)", "keywords": ["glass bottle","plastic bottle","metal bottle","drink bottle"], "bin_key": "YELLOW", "instructions": "Empty, squeeze plastic bottles, recap, then recycle.", "Council": "MELBOURNE", "category": "Recycling" },
+    { "name": "Food scraps", "keywords": ["vegetable peel","coffee grounds","eggshell","leftovers"], "bin_key": "LIME-GREEN", "instructions": "Place in food & garden bin or home compost.", "Council": "MELBOURNE", "category": "Food & Garden" },
+    { "name": "Plastic containers & bottles", "keywords": ["plastic container","bottle","jug","food tub"], "bin_key": "YELLOW", "instructions": "Place rigid plastics (types 1,2,5) in recycling.", "Council": "MELBOURNE", "category": "Recycling" }
+  ],
+  "metadata": {
+    "council": "MELBOURNE",
+    "last_updated": "2025-07-16",
+    "total_items": 8
+  }
+}
