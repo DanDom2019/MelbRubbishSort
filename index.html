@@ -21,15 +21,17 @@
         </div>
         
         <div class="search-wrapper">
-            <label for="search">Search users</label>
-            <input type="text" id="search" placeholder="Search by name or email">
+            <label for="search">Search waste items</label>
+            <input data-search type="text" id="search" placeholder="Search by name or keywords">
         </div>
-        <div class="user-cards" container>
-         <template>
-            <div class="user-card">
-               <div class="header" data-header></div>
-               <div class="body" data-body></div>
-            </div>
-         </template>   
+
+        <template data-waste-template>
+          <div class="user-card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+          </div>
+        </template>
+
+        <div data-waste-cards-container class="user-cards"></div>
     </body>
 </html>
