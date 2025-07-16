@@ -17,9 +17,20 @@ searchInput.addEventListener("input", e => {
   });
 });
 
-// Fetch data from GitHub Pages static JSON
-fetch("https://dandom2019.github.io/MelbRubbishSort/db.json")
-  .then(res => res.json())
+// API URL for JSON data
+const API_URL = 'https://dandom2019.github.io/MelbRubbishSort/db.json';
+
+// Fetch data from JSON API with error handling
+fetch(API_URL)
+  .then(res => {
+    if (!res.ok) {
+      // include response body for debugging
+      return res.text().then(text => {
+        throw new Error(`HTTP ${res.status}: ${text}`);
+      });
+    }
+    return res.json();
+  })
   .then(data => {
     items = data.waste.map(itemData => {
       const card = wasteCardTemplate.content.cloneNode(true).children[0];
